@@ -1,6 +1,6 @@
 /*
 Using this part here 
-
+useCase 
 useCallback accepts as a first parameter a function and 
 returns a memoized version of it (in terms of its memory location, not the computation done inside).
  Meaning that the returned function doesn't get recreated on a new memory reference every time the component re-renders, while a normal function inside a component does.
@@ -11,7 +11,7 @@ The returned function gets recreated on a new memory reference if one of the var
 These are very important differences here so that's important 
 */
 import { useCallback, useState } from "react";
-import Todos from "./Todos";
+import Todos from "../Todos";
 
  
 

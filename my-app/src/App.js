@@ -1,12 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import { UseCallbackEx } from './useCallback';
-import ClosureExample2 from './closure_example2';
+import { UseCallbackEx } from './React_basics/useCallback';
+import ClosureExample2 from './React_basics/closure_with_react';
+import CleanUp from './React_basics/react_clean_up';
+import { Posts } from './React_basics/best_api_practice';
+import { SpecificName } from './React_basics/update_specific_property';
+import ReactChallenge from './React_challenge';
 
 function App() {
   return (
+    <div>
+    {/* <CleanUp/>
+    <ClosureExample2/> */}
 
-    <ClosureExample2/>
+    {/* <SpecificName/> */}
+    {/* <Posts/> */}
+
+    <ReactChallenge/>
+    </div>
     // <UseCallbackEx/>
     // <div className="App">
     //   <header className="App-header">
